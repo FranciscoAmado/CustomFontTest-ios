@@ -9,28 +9,45 @@
 import XCTest
 @testable import CustomFontsTest
 
+import Snap_swift
+
+fileprivate class ContainerView: UIView {
+
+    private static let defaultRect = CGRect(x: 0.0, y: 0.0, width: 375, height: 667)
+
+    init(with view: UIView, `in` frame: CGRect = defaultRect) {
+
+        super.init(frame: frame)
+
+        self.backgroundColor = UIColor.white
+        self.addSubview(view)
+
+        NSLayoutConstraint.activate([
+            view.centerXAnchor.constraint(equalTo: view.superview!.centerXAnchor, constant: 0.0),
+            view.topAnchor.constraint(equalTo: view.superview!.centerYAnchor, constant: 0.0)
+        ])
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+
 class CustomFontsTestTests: XCTestCase {
     
     override func setUp() {
+
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+
+        isRecording = false
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+
+    func testButton() {
+
+        let customLabel = CustomFontLabel()
+        let containerView = ContainerView.init(with: customLabel)
+
+        expect(containerView).toMatchSnapshot()
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }

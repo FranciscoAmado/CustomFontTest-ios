@@ -1,0 +1,12 @@
+PODS:
+  - Snap.swift (0.2.2)
+
+DEPENDENCIES:
+  - Snap.swift
+
+SPEC CHECKSUMS:
+  Snap.swift: 769dc30dcdba8d50c08d7965f52e7cd50bb9faef
+
+PODFILE CHECKSUM: abfb01f1b029ad4f01d54c32d2d10bcb6dde464b
+
+COCOAPODS: 1.3.1

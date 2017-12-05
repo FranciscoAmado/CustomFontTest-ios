@@ -13,6 +13,10 @@
 		6B1986231FD56F4D00FA0E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1986221FD56F4D00FA0E2A /* Assets.xcassets */; };
 		6B1986261FD56F4D00FA0E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1986241FD56F4D00FA0E2A /* LaunchScreen.storyboard */; };
 		6B1986311FD56F4D00FA0E2A /* CustomFontsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1986301FD56F4D00FA0E2A /* CustomFontsTestTests.swift */; };
+		6B19863C1FD5731000FA0E2A /* CustomFontLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B19863B1FD5731000FA0E2A /* CustomFontLabel.swift */; };
+		6B19863E1FD573C000FA0E2A /* ChronicleDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B19863D1FD573C000FA0E2A /* ChronicleDisplay-Bold.otf */; };
+		843F15379454EAC2BCBAB964 /* Pods_CustomFontsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258FC3B51031D2401F07B8DE /* Pods_CustomFontsTest.framework */; };
+		ACA00E230317D2C63694E624 /* Pods_CustomFontsTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507B8C7F986B544AA6F2DAAC /* Pods_CustomFontsTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033B4A7FB7065BE85E459E38 /* Pods-CustomFontsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFontsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFontsTest/Pods-CustomFontsTest.release.xcconfig"; sourceTree = "<group>"; };
+		233D638B981889055D32AB65 /* Pods-CustomFontsTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFontsTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFontsTestTests/Pods-CustomFontsTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		258FC3B51031D2401F07B8DE /* Pods_CustomFontsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomFontsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		507B8C7F986B544AA6F2DAAC /* Pods_CustomFontsTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomFontsTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1986181FD56F4D00FA0E2A /* CustomFontsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFontsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B19861B1FD56F4D00FA0E2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B19861D1FD56F4D00FA0E2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,10 @@
 		6B19862C1FD56F4D00FA0E2A /* CustomFontsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1986301FD56F4D00FA0E2A /* CustomFontsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontsTestTests.swift; sourceTree = "<group>"; };
 		6B1986321FD56F4D00FA0E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B19863B1FD5731000FA0E2A /* CustomFontLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontLabel.swift; sourceTree = "<group>"; };
+		6B19863D1FD573C000FA0E2A /* ChronicleDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChronicleDisplay-Bold.otf"; sourceTree = "<group>"; };
+		7506BD2030960EB29B111104 /* Pods-CustomFontsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFontsTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFontsTestTests/Pods-CustomFontsTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		B649D2FC5F5EC8C33475A978 /* Pods-CustomFontsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomFontsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomFontsTest/Pods-CustomFontsTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843F15379454EAC2BCBAB964 /* Pods_CustomFontsTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +63,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA00E230317D2C63694E624 /* Pods_CustomFontsTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06BDA1EFC36F06DB7D46D815 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B649D2FC5F5EC8C33475A978 /* Pods-CustomFontsTest.debug.xcconfig */,
+				033B4A7FB7065BE85E459E38 /* Pods-CustomFontsTest.release.xcconfig */,
+				233D638B981889055D32AB65 /* Pods-CustomFontsTestTests.debug.xcconfig */,
+				7506BD2030960EB29B111104 /* Pods-CustomFontsTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6B19860F1FD56F4D00FA0E2A = {
 			isa = PBXGroup;
 			children = (
 				6B19861A1FD56F4D00FA0E2A /* CustomFontsTest */,
 				6B19862F1FD56F4D00FA0E2A /* CustomFontsTestTests */,
 				6B1986191FD56F4D00FA0E2A /* Products */,
+				06BDA1EFC36F06DB7D46D815 /* Pods */,
+				EEC1486C0340C90B45E2BFAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +110,8 @@
 				6B1986221FD56F4D00FA0E2A /* Assets.xcassets */,
 				6B1986241FD56F4D00FA0E2A /* LaunchScreen.storyboard */,
 				6B1986271FD56F4D00FA0E2A /* Info.plist */,
+				6B19863B1FD5731000FA0E2A /* CustomFontLabel.swift */,
+				6B19863D1FD573C000FA0E2A /* ChronicleDisplay-Bold.otf */,
 			);
 			path = CustomFontsTest;
 			sourceTree = "<group>";
@@ -96,6 +125,15 @@
 			path = CustomFontsTestTests;
 			sourceTree = "<group>";
 		};
+		EEC1486C0340C90B45E2BFAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				258FC3B51031D2401F07B8DE /* Pods_CustomFontsTest.framework */,
+				507B8C7F986B544AA6F2DAAC /* Pods_CustomFontsTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B1986351FD56F4D00FA0E2A /* Build configuration list for PBXNativeTarget "CustomFontsTest" */;
 			buildPhases = (
+				BBABCE61534858B7FED05E97 /* [CP] Check Pods Manifest.lock */,
 				6B1986141FD56F4D00FA0E2A /* Sources */,
 				6B1986151FD56F4D00FA0E2A /* Frameworks */,
 				6B1986161FD56F4D00FA0E2A /* Resources */,
+				FAD46C74B704DA9B201DFCA8 /* [CP] Embed Pods Frameworks */,
+				D7B2A6436974355056E91EF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B1986381FD56F4D00FA0E2A /* Build configuration list for PBXNativeTarget "CustomFontsTestTests" */;
 			buildPhases = (
+				E87BFFB77B009EB278394F81 /* [CP] Check Pods Manifest.lock */,
 				6B1986281FD56F4D00FA0E2A /* Sources */,
 				6B1986291FD56F4D00FA0E2A /* Frameworks */,
 				6B19862A1FD56F4D00FA0E2A /* Resources */,
+				F4248C88426740D090CBB03E /* [CP] Embed Pods Frameworks */,
+				61B11EF62D7387B2FA2C8F54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +226,7 @@
 				6B1986261FD56F4D00FA0E2A /* LaunchScreen.storyboard in Resources */,
 				6B1986231FD56F4D00FA0E2A /* Assets.xcassets in Resources */,
 				6B1986211FD56F4D00FA0E2A /* Main.storyboard in Resources */,
+				6B19863E1FD573C000FA0E2A /* ChronicleDisplay-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,12 +239,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61B11EF62D7387B2FA2C8F54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomFontsTestTests/Pods-CustomFontsTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBABCE61534858B7FED05E97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomFontsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B2A6436974355056E91EF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomFontsTest/Pods-CustomFontsTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87BFFB77B009EB278394F81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomFontsTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4248C88426740D090CBB03E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomFontsTestTests/Pods-CustomFontsTestTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Snap.swift/Snap_swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Snap_swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomFontsTestTests/Pods-CustomFontsTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD46C74B704DA9B201DFCA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomFontsTest/Pods-CustomFontsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B1986141FD56F4D00FA0E2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6B19861E1FD56F4D00FA0E2A /* ViewController.swift in Sources */,
+				6B19863C1FD5731000FA0E2A /* CustomFontLabel.swift in Sources */,
 				6B19861C1FD56F4D00FA0E2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +499,7 @@
 		};
 		6B1986361FD56F4D00FA0E2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B649D2FC5F5EC8C33475A978 /* Pods-CustomFontsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +515,7 @@
 		};
 		6B1986371FD56F4D00FA0E2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033B4A7FB7065BE85E459E38 /* Pods-CustomFontsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +531,7 @@
 		};
 		6B1986391FD56F4D00FA0E2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233D638B981889055D32AB65 /* Pods-CustomFontsTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +549,7 @@
 		};
 		6B19863A1FD56F4D00FA0E2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7506BD2030960EB29B111104 /* Pods-CustomFontsTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

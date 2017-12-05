@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    override func viewWillAppear(_ animated: Bool) {
+
+        super.viewWillAppear(animated)
+
+        let customLabel = CustomFontLabel()
+
+        self.view.addSubview(customLabel)
+
+        NSLayoutConstraint.activate([
+            customLabel.centerXAnchor.constraint(equalTo: customLabel.superview!.centerXAnchor, constant: 0.0),
+            customLabel.topAnchor.constraint(equalTo: customLabel.superview!.centerYAnchor, constant: 0.0)
+        ])
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

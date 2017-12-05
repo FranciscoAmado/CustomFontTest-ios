@@ -1,0 +1,6 @@
+framework module Pods_CustomFontsTest {
+  umbrella header "Pods-CustomFontsTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
